@@ -1,0 +1,1053 @@
+Python:
+=======
+Downloading and installation of python software:
+================================================
+Go to google and type ===>https://python.org/===>press enter
+
+Latest Python 3 Release - Python 3.12.6
+
+Files:
+=======
+Windows installer (64-bit)
+
+After downloading and installation of python software then go to
+commandprompt==>to check the python version type below command:
+
+python -V===>command to check the python version
+
+Result:
+=======
+Python 3.12.6
+===============================================================================================================================
+c, c++, java, python, dotnet, php and so on.
+
+What is a python?
+Python is a one of programming language. 
+This language was developed by guido van rossum
+in the year 1989 and released in the market in the year 1991.
+
+Presently copy rights of python was maintaining by PSF(Python Software Foundation) Organization
+members from US.
+
+Actually Python is available in 3 versions.
+
+Presently 1st and 2nd versions are not using in market having less features with more disadvantages that's why to overcome these problems people in market presently we are using Python 3rd Version.
+
+Latest version of python 3 is 3.12.6.
+
+python is a case sensitive programming language.(int(valid)  INT(INVALID)).
+
+Python is a interpreter based or scripting based programming language.(python, javascript,php).
+
+Java or c or c++ or dontet(c#) is a compiler based programming language.
+=================================================================================================================================
+First Python Program:
+=====================
+To print any userfriendly messages. we can use the concept of print() in python.
+
+print is a one of the predefined inbuilt function in python.
+which is present inside of __builtin__ module.
+which is used to print the user's data.
+print(data)
+
+Every python program must be saved with an extension filename.py
+
+Example Python Files:
+======================
+AB.py
+Demo.py
+===================================================================================================================================
+How to check the Python  Version?
+Go to Command Prompt and type following below command:
+    python -V ====>This command is used to display the Python Version.
+    python --version ====>This command is used to display the Python Version.
+===================================================================================================================================
+After Downloading and Installing the Python Software.InSearch box type IDLE means for every of python there is seperate 
+IDLE Texteditor is installed by default along with the python software installation.
+
+Issues with Interpreter mode to over come this issues with interpreter mode we can use batch mode for developing the programs.
+====================================================================================================================================
+We are using Different types of IDE Code Tools for Developing the Web applications or DataAnalyst or DataScience Applications:
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+JAVA ===>ECLIPSE IDE(Integrated development Environment) AND INTELLI IDEA 
+
+PYTHON===>IDLE TEXTEDITOR ===>PYCHARM IDE===>FLASK FRAMEWORK===>WEBAPPLICATIONS
+
+DATASCIENCE====>ANACONDA NAVIGATOR(JUPYTER NOTEBOOK OR SPYDER NOTEBOOK) OR GOOGLE COLOB
+
+DOT NET===>VISUAL STUDIO IDE.
+====================================================================================================================================
+Basic Python Program:
+=====================
+i=100
+j=45
+print(i+j)
+print(i-j)
+print(i*j)
+print(i/j)
+
+i="Hari is a good boy...."
+print(x)
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+Datatypes:
+==========
+Datatypes are nothing but a some of the keywords of every programming languages.
+
+Here python supports dynamic datatypes where as c,c++,java,dotnet languages can support
+static datatypes.
+
+static datatypes:
+=================
+a)static datatypes means we can mandatory to define the datatypes before initializing the value to the variables. 
+b)we can define the semicolon by the end of every datatype statement.
+c)one variable can use only one time with in the program.
+
+int x=100;
+String s="Sai";
+float customersalary=45000.566;
+
+dynamic datatypes:
+===================
+a)Dynamic datatypes means we cannot able to define the datatypes before initializing the value to the variables.
+b)Because in python based on the value initialized to the variable that value represented class is created internally to check that
+class which is created internally we can use type()/type function.
+b)we cannot define the semicolon by the end of every datatype statement.
+c)one variable can use more than one time with in the program.
+d)Every datatype in python can be internally implemented as a class type.
+
+x=100
+print(x)
+x="Ravi"
+print(x)
+x=56.34
+print(x)
+
+type():
+=======
+type is a predefined inbuilt function in python which is used to display the type of datatype class based on the value intialized 
+to the variable.
+
+example:
+=======
+x=10.4
+print(x)
+print(type(x))
+print(id(x))
+
+id():
+=====
+id is a one of the predefined inbuilt function in python which is used to define the type of id address based on datatype class.
+
+example:
+========
+x="str"
+print(x)
+print(type(x))
+print(id(x))
+
+python supports 2 types of datatypes:
+
+a)Fundamental Datatypes:
+========================
+Fundamental datatypes can stores single values at a time.
+If we define more than one value to any fundamental datatypes by default collection datatype tuple class object is created.
+
+int, float, bool, str, complex.
+
+Example Program using Fundamental Datatypes:
+============================================
+x=100
+print(x)
+print(type(x))
+print(id(x))
+
+x=4.5
+print(x)
+print(type(x))
+print(id(x))
+
+x=True
+print(x)
+print(type(x))
+print(id(x))
+
+x="Rama"
+print(x)
+print(type(x))
+print(id(x))
+
+x=5+4j
+print(x)
+print(type(x))
+print(id(x))
+
+
+b)Collection Datatypes:
+========================
+Collection is a group of elements or sequence of elements, which is used to store more than one value at a time is also known as a Collection Datatypes.
+
+Collection represented datatypes in Python:
+
+list, set, tuple, dict, frozenset.
+
+tuple in SQL for any database we can called as a record or tuple or row.
+
+But in python point of view tuple is a datatype.
+
+list:
+====
+list is a one of the collection datatype and list class object can be created by using square brackets. [].
+
+x=[1,10.23,True]
+print(x)
+print(type(x))
+print(id(x))
+
+x=[]#empty list class
+print(x)
+print(type(x))
+print(id(x))
+
+
+tuple:
+-=-=-=-
+tuple is a one of the collection datatype.
+we can create tuple class object in 2 ways:
+  a)defining more one value at a time with out parenthesis.
+  b)defining more than one value using with parenthesis symbol ().
+
+x=1,10.23,True
+print(x)
+print(type(x))
+print(id(x))
+
+x=(10,True,44.56,[34.6])#if we define more than one value at a time then by default python interpreter will create tuple class object.
+print(x)
+print(type(x))#tuple class
+print(id(x))#address is created internally for tuple class object.
+
+x=()#empty tuple class
+print(x)
+print(type(x))
+print(id(x))
+
+set:
+-=-=-
+set is a one of the collection datatype.
+we can create set class object by using {}===>curly braces.
+Defining one value or more than one value in side of curly braces is a concept of set class object.
+If we define empty {} curly braces then automatically it will create empty dict class object.
+
+x={1,10.23,True}
+print(x)
+print(type(x))
+print(id(x))
+
+x={345}
+print(x)
+print(type(x))
+print(id(x))
+
+x={}  #empty dict class
+print(x)
+print(type(x))
+print(id(x))
+
+
+dict:
+-=-=-
+dict is a one of the collection datatype.
+we can create dict class object using {key:value} pair based using curly braces.
+In dict key:value pair in that key does not allows duplicate data and value must allows duplicate data.
+
+
+x={1:True,"sai":3+4j,34.56:False}
+print(x)
+print(type(x))
+print(id(x))
+
+x={34:True}
+print(x)
+print(type(x))
+print(id(x))
+
+x={}  #empty dict class
+print(x)
+print(type(x))
+print(id(x))
+
+Duplicate Checking:
+===================
+x={1:True,1:False,34.56:False}
+print(x)
+print(type(x))
+print(id(x))
+=====================================================================================================================================
+collection datatypes important points:
+======================================
+x=[10,10,10,20,30,40]
+print(x)
+print(type(x))
+print(id(x))
+
+
+x=(10,10,10,20,30,40)
+print(x)
+print(type(x))
+print(id(x))
+
+
+x={10,10,10,20,30,40}
+print(x)
+print(type(x))
+print(id(x))
+
+x={1:True, 2:True, 1:False, 3:True}
+print(x)
+print(type(x))
+print(id(x))
+
+'''
+1. list and tuple can supports duplicate data and list and tuple are ordered pair of elements.
+2. set does not supports duplicate data and set and dict are unordered pair of elements.
+3. list and tuple can supports indexing and slicing concepts.
+4. set and dict does not supports indexing and slicing concepts.
+5. python supports both positive and negative indexing in that positive indexing starts from 0 and negative indexing starts from -1.
+'''
+
+Example on Indexing Concept:
+============================
+x=[22.4,True,"Hari"]
+print(x[0])#22.4
+print(x[-2])#True
+print(x[-4])#IndexError
+
+Example on Slicing Concept:
+===========================
+x="Hari"
+print(x[1:-1])#AR
+print(x[0:-2])#HA
+print(x[-1:0])#EmptyData
+======================================================================================================================================
+input function:
+===============
+1. input() is a predefined function in python, which is used to read the users data from the keyboard dynamically.
+2. By default input() can read the data in the form of str format and display the results in the form of concatination format.
+3. If we want the other data formats we can use type conversion functions like int(),float(),bool() and so on.
+
+Example Program Using input():
+==============================
+x=input("Enter the value of x=")
+y=input("Enter the value of y=")
+print(x+y)
+
+#Example Program on input function using int type conversion function:
+
+x=int(input("Enter the value of x="))
+y=int(input("Enter the value of y="))
+print("The sum of x+y = ", x+y)
+print("The sub of x-y = ", x-y)
+print("The mul of x*y = ", x*y)
+print("The div of x/y = ", x/y)
+
+Example 2:
+==========
+x=int(input("Enter the value of x="))
+y=int(input("Enter the value of y="))
+print(x+y)
+
+output:
+=======
+ValueError: invalid literal for int() with base 10: '4.5'
+
+Example 3:
+==========
+x=float(input("Enter the value of x="))
+y=float(input("Enter the value of y="))
+print(x+y)
+
+Output:
+=======
+Enter the value of x=4.5
+Enter the value of y=3.2
+7.7
+
+Example 4:
+==========
+x=float(input("Enter the value of x="))
+y=float(input("Enter the value of y="))
+print(x+y)
+
+Output:
+=======
+Enter the value of x=6
+Enter the value of y=9
+15.0
+
+Example 5:
+===========
+x=bool(input("Enter the value of x="))
+y=bool(input("Enter the value of y="))
+print(x+y)
+
+Output 1:
+=========
+Enter the value of x=False
+Enter the value of y=False
+2
+
+Output 2:
+=========
+Enter the value of x=True
+Enter the value of y=True
+2
+
+Note:
+=====
+In bool conversion function if we define the input as False it is internally converted as a True Format.
+=====================================================================================================================================
+Operators:
+==========
+Operators are nothing but a symbol, which are used to perform operations on operands.
+
+Operators are mainly 6 types:
+==============================
+Arithmetic Operator:
+====================
+This operator is used to perform mathematical arithmetic operators like +,-,*,/,//,%,**
+
+Example:
+=========
+x=5
+y=3
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)
+print(x//y)#floor division===>1
+print(x**y)#power 125
+print(x%y)
+
+Relational Operator:
+====================
+This operator is used to perform mathematical relational operations like >,<,>=,<=,==,!=.
+
+Example:
+========
+x=5
+y=3
+print(x>y)
+print(x<y)
+print(x>=y)
+print(x<=y)
+print(x==y)
+print(x!=y)
+
+Logical Operator:
+=================
+This operator is used to perform mathematical logical operations like and , or , not.
+
+In and condition if T T ==>T other than T F, F T, F F all are False.
+
+In or condition if F F ==>F other than T F, F T, T T all are True.
+
+Example 1:
+==========
+x=True
+y=False
+print(x and y)#False
+print(x or y)#True
+print(not y)#True
+print(not x)#False
+
+Example 2:
+==========
+x=1
+y=1
+print(x and y)#1
+print(x or y)#1
+print(not y)#False
+print(not x)#False
+
+Assignment Operator:
+====================
+Combination of Arithmetic Operators + Shorthand Operators is a concept of Assignment Operators.
+Assignment Operator is denoted with = symbol.
+
+Example:
+=========
+i=4
+j=2
+i+=j #shorthand operator===>i=i+j
+print(i)#6
+
+i=3
+i-=j #shorthand operator===>i=i-j
+print(i)#1
+
+i=6
+i*=j #shorthand operator===>i=i*j
+print(i)#12
+
+i=2
+i**=j #shorthand operator===>i=i**j
+print(i)#4
+
+i=7
+i/=j #shorthand operator===>i=i/j
+print(i)#3.5
+
+i=3
+i//=j #shorthand operator===>i=i//j
+print(i)#1
+
+
+Bitwise Operators:
+==================
+Bitwise operator is used to convert the data into binary format data and perform operations on binary data using
+bitwise operators and results will displayed in the form of Decimal or Numerical format.
+
+Following Bitwise Operators:
+============================
+&,|,~,^,>>,<<
+
+Example:
+========
+x=10
+y=4
+print(bin(10))
+print(bin(4))
+print(x & y)
+print(x | y)
+print(~x)
+print(~y)
+print(x ^ y)#XOR
+print(x>>3)
+print(x<<4)
+
+
+Output:
+======
+0b1010
+0b100
+0
+14
+-11
+-5
+14
+1
+160
+
+
+iterable and non-iterable class objects:
+========================================
+iterable class objects:
+=======================
+Allowing and executing more than one value or more than one character is a concept of iterable class objects.
+
+Example:
+=======
+str,list,tuple,set,dict,frozenset.
+
+
+non-iterable class objects:
+============================
+Allowing and executing single value at a time is a concept of non-iterable class objects.
+
+Example:
+=======
+int,float,bool,complex.
+
+
+python supports 2 types of special operators:
+
+a)Membership operator:
+========================
+*)Membership operators is used to search for the elements/data wheather the given element/data is present inside of iterable class object or not.
+
+*)To work with membership operators we can use in and not in operators.
+
+*)Membership operators supports only iterable class objects.
+   str,list,tuple,set,dict and frozenset.
+
+Example 1:
+=========
+x=100
+print(100 not in x)#False
+
+Output:
+======
+TypeError: argument of type 'int' is not iterable.
+
+Example 2:
+==========
+x=[100,True,"surya",33+2j]
+print(100 not in x)#False
+print(True in x)#True
+print("sai" in x)#False
+
+Output:
+=======
+False
+True
+False
+
+Example 3:
+==========
+x="VegaltTechnologies"
+print(x[0])#V
+print("V" not in x)#False
+print("Vegalt" in x)#True
+print("Tech" in x)#True
+
+Output:
+=======
+V
+False
+True
+True
+
+frozenset:
+==========
+frozenset is a one of the collection datatype in python.
+frozenset class object can be created using frozenset()/frozenset function.
+
+Example:
+=========
+x=frozenset({100,100,100,True,3+4j})
+print(x)
+print(type(x))
+print(id(x))
+
+
+x={100,True,3+4j}
+print(x)
+print(type(x))
+print(id(x))
+
+
+b)Identity Operator:
+=====================
+*)Identity operators are used to creates the address of the given iterable and non-iterable class object data.
+
+*)To work with membership operators we can use is and is not operators.
+
+Example 1:
+===========
+x={100,True,3+4j}
+print(x)
+print(type(x))
+print(id(x))
+
+y={45,7.2,False}
+print(y)
+print(type(y))
+print(id(y))
+
+print(x is y)#False
+
+print(x is not y)#True
+
+
+Output:
+=======
+{True, 100, (3+4j)}
+<class 'set'>
+2432396542912
+{False, 45, 7.2}
+<class 'set'>
+2432397011744
+False
+True
+
+
+Example 2:
+==========
+x="Java Student"
+print(x)
+print(type(x))
+print(id(x))
+
+y="Java Student"
+print(y)
+print(type(y))
+print(id(y))
+
+print(x is y)#True
+
+print(x is not y)#False
+
+=====================================================================================================================================
+Str Handling:
+=============
+Group of character or sequences of characters is also known as a str.
+Group of character or sequences of characters can be stored in str class object.
+we can create str class object by using 2 ways:
+ a)By using "" or '' :
+ =====================
+ this can stores only single line of str data.
+
+ b)By using """ or ''' :
+============================
+this can stores multi line of str data.
+
+str supports both positive and negative indexing and if str supports indexing means then it automatically supports slicing.
+In python positive indexing starts with 0 and negative indexing starts with -1.
+
+Examples 1:
+===========
+x="hari"
+print(x)
+
+x='surya'
+print(x)
+
+Examples 2:
+===========
+x="""hariasatffybknhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+ASDFGHJKL;KJHGFE4567898765YUL;LKJHGFDSsfghjhgfds
+asdghgfdsasdfghjk
+sghjkl,"""
+print(x)
+
+x='''suryaiiiiihjjjhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhvffffffdsasghloiuydsdliuytredsdfghjl;loiuyfddfg
+sdgyuiy6trghjkl;loiuytjk.,jhgf
+dfghjklkjhgfd
+dhjkl,jhg'''
+print(x)
+
+
+Example 3:
+==========
+x="vegalt"
+print(x[-4])#g
+
+print(x[1:-3])#eg
+
+
+
+'''
+                       0  v  -6
+                       1  e  -5
+                       2  g  -4
+                       3  a  -3
+                       4  l  -2
+                       5  t  -1
+'''
+
+=====================================================================================================================================
+Functions:
+===========
+it is a syntax or structure used to define the business logic inside of the function body to perform
+an operations.
+
+Every function or methods can  be starts with def keyword in python.
+
+Function can return the value that can be handled through at the time of executing the function.
+
+syntax to define an function:
+=============================
+def functionname(parameters):
+    ================
+    ================
+    logic
+    ================
+    return_value;
+
+Function can be executed automatically when ever we can make a function call.
+
+Function will executed automatically when ever we can call that functionname from out side of that function.
+
+Function Parameters Program Example 1:
+=====================================
+'''
+   parameters functions===>x,y are parameters which can be passed with in the function.
+   if we define the parameters to any function then at the time of calling that function we can pass the
+   values/arguments to those function parameters other wise we will get the runtime errors.
+'''
+def sum(x,y):
+    print(x+y)
+
+
+sum()
+
+output:
+=======
+TypeError: sum() missing 2 required positional arguments: 'x' and 'y'.
+
+
+Function Parameters Program Example 2:
+=====================================
+def m1(i):
+    print(i)
+
+
+sum(10,2)
+
+output:
+=======
+TypeError: m1() takes 1 positional argument but 2 were given
+
+
+To Over come the above program we can use arbitary parameters concept.
+
+Arbitary Function Parameters Program Example 3:
+==============================================  
+Arbitary parameter function is denoted with * using parametername.   
+If we use Arbitary parameter to any function means we can pass the n number of values to those arbitary parameter and results 
+will be display in the form of tuple format.
+
+def m1(*i):
+    print(i)
+
+
+m1(10,2)
+
+Output:
+=======
+(10, 2)
+
+Global Variables:
+=================
+Any variable which is defined outside the function and can be accessed with in the function is a concept of global variable.
+scope of global variable is outside the functions.
+
+Example:
+========
+x=100
+y=False
+z=3+4j
+
+def m1():
+    print(x)
+    print(y)
+    print(z)
+    print("\n",x,"\n",y,"\n",z)
+
+
+m1()
+
+
+Local Variable:
+==============
+Any variable which is defined inside the function is a concept of local variable.
+scope of local variable is defined inside the functions.
+
+Example:
+========
+def func():
+    i=[10,True,{100,"surya"}]
+    print(i)
+    
+
+func()
+
+
+default and non-default parameters:
+=====================================
+Passing the values to the parameters with in the function is a concept of default parameters.
+
+Passing the values to the parameters at the time of calling that function is a concept of non-default parameters.
+
+Example 1:
+=========
+def addition(x=4,y=3):#default parameters
+    print(x+y)
+
+
+addition(7,1)#non-default parameters
+
+Output:
+=======
+8
+
+Example 2:
+==========
+e=100
+def addition(x=4,y=3):#default parameters
+    print(x+y)
+    u=True
+    v=3+4j
+    print(u,v)#local variable
+    print(e)#global variable
+
+addition(7,1)#non-default parameters
+
+output:
+=======
+8
+True (3+4j)
+100
+
+nested or inner functions:
+=========================
+Defining the function inside of the another function is a concept of Nested or Inner Function.
+
+
+syntax:
+=======
+def Outer():
+    ======
+    return_value
+    def Inner():
+      ======
+      return_value
+
+Example 1:
+=========
+def Outer(x,y):
+    print(x**y)
+    def Inner(i,j,k):
+        print(i+j/k)
+    
+
+Outer(4,2)
+Inner(7,2,9)
+
+OutPut:
+=======
+NameError: name 'Inner' is not defined
+
+Example 2:
+===========
+def Outer(x,y):
+    print(x**y)
+    def Inner(i,j,k):
+        print(i+j/k)
+    Inner(7,2,9)
+
+Outer(4,2)
+
+OutPut:
+=======
+16
+7.222222222222222
+
+Argument Functions and Non-Argument Functions:
+===============================================
+def addition(x,y):
+    print(x+y)
+
+
+addition(y=7,x=1)#argument functions
+
+def addition(x,y):
+    print(x+y)
+
+
+addition(7,1)#non-argument functions
+
+Function with return keyword:
+==============================
+Every function can return value using return keyword.
+
+Function returned can be displayed after execution of the function.
+
+Example:
+========
+#function with return keyword:
+
+def sum(x,y):
+    return x+y
+
+
+result=sum(2,7)
+print(result)
+
+print(sum(8,3))
+
+Output:
+=======
+9
+11
+
+def message():
+    return "sai"
+
+
+x=message()
+print(x)
+
+output:
+=======
+sai
+
+def message():
+    print("sai")
+
+message()
+
+
+Bank Example code using Functions:
+===================================
+custaccno=int(input("Enter the CustomerAccountNumber = "))
+custname=input("Enter the CustomerName = ")
+custaddr=input("Enter the CustomerAddress = ")
+custmbno=int(input("Enter the CustomerMobileNumber = "))
+
+def deposit():
+    custbal=float(input("Enter the CustomerBalance = "))
+    depositamount=float(input("Enter the DepositAmount = "))
+    custbal=custbal+depositamount
+    print(custbal)
+
+def withdraw():
+    custbal=float(input("Enter the CustomerBalance = "))
+    withdrawamount=float(input("Enter the CustomerWithdraw = "))
+    custbal=custbal-withdrawamount
+    print(custbal)
+    
+def display():
+    print("Customeraccno=",custaccno,"\n","Custname=",custname,"\n","Custaddr=",custaddr,"\n","Custmbno=",custmbno)
+
+
+deposit()
+withdraw()
+display()
+
+Output:
+=======
+Enter the CustomerAccountNumber = 1001
+Enter the CustomerName = Sai
+Enter the CustomerAddress = Hyd
+Enter the CustomerMobileNumber = 9848022338
+Enter the CustomerBalance = 7000.0
+Enter the DepositAmount = 5000.0
+12000.0
+Enter the CustomerBalance = 12000.0
+Enter the CustomerWithdraw = 6000.0
+6000.0
+Customeraccno= 1001 
+ Custname= Sai 
+ Custaddr= Hyd 
+ Custmbno= 9848022338
+======================================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
